@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,100;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+header {
+    background-color: rgb(243, 243, 243);
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    border-radius: 7px;
+}
+
+header h1 {
+    padding-left: 20px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.market {
+    color: rgb(144, 192, 47);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.x {
+    width: 670px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    background-color: black;
+    border-radius: 7px;
+}
+
+.dados {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item-valor {
+    padding: 18px;
+    padding-left: 25px;
+    padding-right: 30px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.carrinho {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    height: 50px;
+    width: 670px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243, 243, 243)
+}
+
+.produto {
+    padding: 20px;
+    padding-left: 15px;
+    padding-right: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.valor {
+    padding: 20px;
+    padding-left: 25px;
+    padding-right: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.finalizar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    height: 70px;
+    width: 675px;
+    border-radius: 8px;
+    background-color: RGB(233, 236, 239);
+}
+
+.total {
+    padding: 25px;
+    padding-left: 20px;
+    padding-right: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+.somatoria {
+    padding: 25px;
+    padding-left: 20px;
+    padding-right: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+}
+
+.botao {
+    background-color: RGB(32, 201, 151);
+    border: none;
+    width: 675px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 60px;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.botao:hover {
+    background-color: rgb(25, 163, 129);
+}
